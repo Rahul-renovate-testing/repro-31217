@@ -3,12 +3,12 @@
   "packageRules": [{
     "matchManagers": ["npm"],
     "matchPackageNames": ["!xmldoc"],
-    "enabled": false,
+    "enabled": false
   },
   {
     "matchManagers": ["npm"],
     "matchPackageNames": ["xmldoc"],
-    "enabled": true,
+    "enabled": true
   }
   ]
 }
