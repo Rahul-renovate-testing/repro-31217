@@ -1,5 +1,5 @@
 {
-  "enabledManagers": "npm",
+  "enabledManagers": ["npm"],
   "packageRules": [{
     "matchManagers": ["npm"],
     "matchPackageNames": ["!xmldoc"],
