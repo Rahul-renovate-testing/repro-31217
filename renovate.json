@@ -1,0 +1,14 @@
+{
+  "enabledManagers": "npm",
+  "packageRules": [{
+    "matchManagers": ["npm"],
+    "matchPackageNames": ["!xmldoc"],
+    "enabled": false,
+  },
+  {
+    "matchManagers": ["npm"],
+    "matchPackageNames": ["xmldoc"],
+    "enabled": true,
+  }
+  ]
+}
